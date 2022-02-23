@@ -1,0 +1,56 @@
+.item {
+    margin: 2rem 0;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .content h3 {
+    font-size: 1.25rem;
+    color: #2c292b;
+  }
+  
+  .actions {
+    padding: 1.5rem;
+    text-align: right;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: red;
+    border: 1px solid #b6b6b6;
+    border-radius: 100%;
+    background-color: transparent;
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #b6b6b6;
+  }
+
+  .edit svg {
+    color: #2c292b;
+  }
+
+  .fav svg {
+    color: gold;
+  }
